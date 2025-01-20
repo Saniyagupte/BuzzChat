@@ -11,3 +11,14 @@ I developed this application while learning about **sockets** and real-time comm
 - Display active users in the chat room.
 - Simple and clean user interface.
 - Ability to leave the chat room.
+
+## Prerequisites
+
+Ensure you have the following installed:
+
+- **Node.js** 
+- **npm** 
+
+## Installation
+
+1. Clone the repository: git clone https://github.com/Saniyagupte/BuzzChat.git
