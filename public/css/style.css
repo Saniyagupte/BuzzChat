@@ -1,0 +1,262 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+	background: #1f2937; 
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+  }
+  
+  .join-container {
+	background: #111827; 
+	padding: 30px;
+	border-radius: 8px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+	width: 100%;
+	max-width: 500px;
+  }
+  
+  .join-header h1 {
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #ffffff;
+	font-weight: bold;
+  }
+  
+  .join-main form {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .form-control {
+	margin-bottom: 20px;
+  }
+  
+  label {
+	font-size: 16px;
+	color: #ddd;
+	margin-bottom: 8px;
+  }
+  
+  input,
+  select {
+	padding: 12px;
+	font-size: 16px;
+	border: none;
+	border-radius: 6px;
+	background-color: #374151; 
+	color: #fff;
+	margin-top: 5px;
+	outline: none;
+	transition: 0.3s ease;
+  }
+  
+  input:focus,
+  select:focus {
+	background-color: #4b5563; 
+	box-shadow: 0 0 5px rgba(59, 130, 246, 0.8); 
+  }
+  
+  button {
+	padding: 14px;
+	font-size: 18px;
+	background-color: #3b82f6; 
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+	background-color: #2563eb; 
+  }
+  
+  @media (max-width: 500px) {
+	.join-container {
+	  width: 90%;
+	  padding: 20px;
+	}
+  
+	.join-header h1 {
+	  font-size: 28px;
+	}
+  }
+  
+  * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  body {
+	font-family: 'Arial', sans-serif;
+	background-color: #1f2937; 
+	color: #ffffff;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .chat-container {
+	background: #111827; 
+	display: flex;
+	flex-direction: column;
+	height: 90vh;
+	width: 90%;
+	max-width: 1200px;
+	border-radius: 8px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+  }
+  
+  .chat-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #333;
+	padding: 20px;
+	border-radius: 8px 8px 0 0;
+  }
+  
+  .chat-header h1 {
+	font-size: 32px;
+	color: #fff;
+  }
+  
+  .chat-header button {
+	padding: 10px;
+	background-color: #ef4444; 
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .chat-header button:hover {
+	background-color: #dc2626;
+  }
+  
+  .chat-main {
+	display: flex;
+	flex: 1;
+	padding: 10px;
+	overflow-y: auto;
+  }
+  
+  .chat-sidebar {
+	width: 25%;
+	background-color: #374151; 
+	padding: 20px;
+	border-radius: 8px;
+	margin-right: 20px;
+  }
+  
+  .chat-sidebar h3 {
+	color: #ef4444; 
+  }
+  
+  .chat-sidebar ul {
+	list-style: none;
+	padding: 0;
+  }
+  
+  .chat-sidebar ul li {
+	padding: 8px 0;
+  }
+  
+  .chat-messages {
+	width: 75%;
+	background-color: #2d3748; 
+	padding: 20px;
+	border-radius: 8px;
+	overflow-y: auto;
+  }
+  
+  .message {
+	background-color: #4a5568; 
+	padding: 15px;
+	border-radius: 8px;
+	margin-bottom: 10px;
+  }
+  
+  .message .meta {
+	font-weight: bold;
+  }
+  
+  .message .text {
+	margin-top: 5px;
+  }
+  
+  .chat-form-container {
+	padding: 20px;
+	background-color: #374151; 
+	border-radius: 0 0 8px 8px;
+  }
+  
+  .chat-form-container form {
+	display: flex;
+  }
+  
+  .chat-form-container input {
+	flex: 1;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	background-color: #1f2937;
+	color: #fff;
+  }
+  
+  .chat-form-container button {
+	padding: 10px;
+	background-color: #3b82f6; 
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .chat-form-container button:hover {
+	background-color: #2563eb;
+  }
+  
+  @media (max-width: 768px) {
+	.chat-main {
+	  flex-direction: column;
+	}
+  
+	.chat-sidebar {
+	  width: 100%;
+	  margin-right: 0;
+	}
+  
+	.chat-messages {
+	  width: 100%;
+	}
+  }
+  
+  
+#leave-btn {
+	padding: 10px 20px;
+	background-color: #ef4444; 
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+  }
+  
+  #leave-btn:hover {
+	background-color: #dc2626; 
+  }
+  
