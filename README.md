@@ -2,6 +2,7 @@
 # Real-Time Chat Application
 
 This is a real-time chat application built using **Node.js**, **Express.js**, and **Socket.IO**. It allows users to join chat rooms, send messages, and see other participants in the room.
+I developed this application while learning about **sockets** and real-time communication.
 
 ## Features
 
